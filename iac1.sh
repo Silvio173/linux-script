@@ -11,7 +11,7 @@ groupadd GRP_ADM
 groupadd GRP_VEN
 groupadd GRP_SEC
 
-echo "Criando usuarios"
+echo "Criando usuarios "
 
 useradd carlos -m -s /bin/bash -p $(openssl passwd Senha123) -G GRP_ADM
 useradd maria -m -s /bin/bash -p $(openssl passwd Senha123) -G GRP_ADM
